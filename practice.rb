@@ -13,4 +13,9 @@
    }
    Do ~ end で囲まれた部分をブロックと呼ぶ
 
-   
+   [1,2,3].each { |i|
+    p i
+}
+{height: 180, weight: 65}.each { |i|
+    p i
+}
