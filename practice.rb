@@ -18,4 +18,4 @@
 }
 {height: 180, weight: 65}.each { |i|
     p i
-}
+} 
