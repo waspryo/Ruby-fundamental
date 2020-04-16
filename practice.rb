@@ -3,7 +3,11 @@
     処理 A
     処理 B
     処理 C
+
    end
+
+   end
+
 
    またはdo endを省略して書くことができる
    数値.times { |変数|
@@ -18,6 +22,7 @@
 }
 {height: 180, weight: 65}.each { |i|
     p i
+
 }
 
 class Animal
@@ -68,3 +73,6 @@ tripple = calc.(3)
 
 [1,2,3,4,5].map{|a| double.(a) }
 [1,2,3,4,5].map{|a| tripple.(a) }
+
+}
+
