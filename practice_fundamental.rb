@@ -68,3 +68,31 @@ tripple = calc.(3)
 
 [1,2,3,4,5].map{|a| double.(a) }
 [1,2,3,4,5].map{|a| tripple.(a) }
+
+-------------------------------------------------------------------------------
+module NameDecorator
+  def name
+    "<<#{super}>>"
+  end
+end
+
+class Product
+  prepend NameDecorator
+end
+
+class User
+  def name
+    "Alice"
+  end
+end
+
+class User
+  def name
+    "Alice"
+  end
+end
+
+class User
+  prepend NameDecorator
+end
+-------------------------------------------------------------------------------
